@@ -1,0 +1,65 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: aqua;
+    z-index: 1;
+}
+#header img{
+    position: relative;
+    height: 100px;
+    left: 530px;
+}   
+
+#bodydiv #content{
+    position: relative;
+    border: 3px solid whitesmoke;
+    top: 100px;
+    width: 500px;
+    left: 390px;
+    overflow: hidden;
+}
+
+#content p{
+    text-align: justify;
+}
+
+#bodydiv #content img{
+    width: 100px;
+}
+
+#bodydiv #content div{
+    width: 100px;
+}
+
+#bodydiv #content #grizz{
+    float: left;
+}
+
+#bodydiv #content #grizz p{
+    text-align: center;
+}
+
+#bodydiv #content #ice{
+    float: left;
+    margin-left: 100px;
+}
+
+#bodydiv #content #ice p{
+    text-align: center;
+}
+
+#bodydiv #content #panda{
+    float: right;
+}
+
+#bodydiv #content #panda p{
+    text-align: center;
+}
+
+#textbawah{
+    border: 2px solid red;
+}
